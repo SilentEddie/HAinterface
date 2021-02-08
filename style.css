@@ -44,14 +44,15 @@ flex-wrap: nowrap;
   transform: translatey(-2px);
   cursor: pointer;
   box-shadow: -2px 2px 6px #202020;
+  user-select: none;
+
 }
 
 .slider::-webkit-slider-thumb:active {
   transform: translatey(-1px);
   box-shadow: 0px 0px 6px #e5e5e5;
-
-
 }
+
 .slider::-moz-range-thumb {
   -webkit-appearance: none;
   appearance: none;
@@ -63,4 +64,11 @@ flex-wrap: nowrap;
   transform: translatey(-2px);
   cursor: pointer;
   box-shadow: -2px 2px 6px #202020;
+  user-select: none;
+
+}
+
+.slider::-moz-range-thumb:active {
+  transform: translatey(-1px);
+  box-shadow: 0px 0px 6px #e5e5e5;
 }
